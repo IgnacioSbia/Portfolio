@@ -5,6 +5,9 @@ import './Projects.css';
 import pokeImg from '../../assets/images/PokemonProject.png';
 import audnImg from '../../assets/images/AudnProject.jpg';
 import w40kImg from '../../assets/images/Warhammerprojectprob.jpg';
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
+
 
 function Projects(props) {
 
@@ -36,31 +39,31 @@ function Projects(props) {
         <section className='project' id='projects'>
             <Container>
                 <Row>
-                    <Col>
-                        <div className='projectsTitle'>
-                            <h2>{props.language ? 'Proyectos' : 'Projects'}</h2>
-                            <p>{props.language ? "Aqui algunos de los proyectos que eh realizado. Todos ellos con collaboracion de otros desarolladores utilizando Git.": "Here are some projects I've made. They are all in collaboration with others developers using Git."}</p>
-                        </div>
-                        <Tab.Container id='projects-tab' defaultActiveKey="first">
+                    <Col size={12}>
+                            <div className='projectsTitle'>
+                                <h2>{props.language ? 'Proyectos' : 'Projects'}</h2>
+                                <p>{props.language ? "Aqui algunos de los proyectos que eh realizado. Todos ellos con collaboracion de otros desarolladores utilizando Git.": "Here are some projects I've made. They are all in collaboration with others developers using Git."}</p>
+                            </div>
+                            <Tab.Container id='projects-tab' defaultActiveKey="first">
 
-                        <Tab.Content>
-                            <Tab.Pane eventKey='first'>
-                                <Row>
-                                    {
-                                        myProjects.map((project, index)=>{
-                                            return (
-                                                <ProjectCards 
-                                                key={index}
-                                                {...project}
-                                                language = {props.language}/>
-                                               
-                                            )
-                                        })
-                                    }
-                                </Row>
-                            </Tab.Pane>
-                        </Tab.Content>
-                        </Tab.Container>
+                            <Tab.Content>
+                                <Tab.Pane eventKey='first'>
+                                    <Row>
+                                        {
+                                            myProjects.map((project, index)=>{
+                                                return (
+                                                    <ProjectCards 
+                                                    key={index}
+                                                    {...project}
+                                                    language = {props.language}/>
+                                                
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                            </Tab.Content>
+                            </Tab.Container>
                     </Col>
                 </Row>
             </Container>

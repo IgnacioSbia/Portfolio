@@ -33,6 +33,12 @@
     margin-bottom: 16px;
     display: inline-block;
   }
+
+  .homeBannerDescription{
+    font-weight: bolder;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.295);
+  }
   .banner h1 {
     font-size: 65px;
     font-weight: 700;

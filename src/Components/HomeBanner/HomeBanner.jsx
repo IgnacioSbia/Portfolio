@@ -3,10 +3,9 @@ import { Container,Row,Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import synthSun from '../../assets/images/SynthwaveSun.png';
-import NavBar from '../NavBar/NavBar';
 import './HomeBanner.css';
-import Skills from '../Skills/Skills';
-import Projects from '../Projects/Projects';
+import { HashLink } from 'react-router-hash-link';
+
 
 function HomeBanner(props) {
  const [loopNumber, setLoopNumber] = useState(0);   
@@ -53,11 +52,13 @@ function HomeBanner(props) {
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>{props.language ? 'Bienvenido a mi Portfolio' : 'Welcome to my Portfolio'}</span>
-                    <h1>{props.language ? 'Buenas, soy Ignacio ' : 'Hi Im Ignacio '}<span className='wrap'>Full Stack Web Developer{actualtext}</span></h1>
-                    <p>{props.language ? 'En expectativas de seguir mejorando mis habilidades en un entorno laboral real. Motivado para trabajar y enfrentar los desafios en los productos que este desarollando, utilizando mis conocimientos para ello.' 
+                    <h1>{props.language ? 'Hola, soy Ignacio ' : "Hi I'm Ignacio  a"}<hr/><span className='wrap'>Full Stack Web Developer{actualtext}</span></h1>
+                    <p className='homeBannerDescription'>{props.language ? 'En expectativas de seguir mejorando mis habilidades en un entorno laboral real. Motivado para trabajar y enfrentar los desafios en los productos que este desarollando, utilizando mis conocimientos para ello.' 
                     : 
                     'In the expectation of continuing to improve my skills in a real work environment. Motivated to work and face the challenges in the products that I am developing, using my knowledge for it.'}</p>
-                    <button onClick={()=>console.log('connect')}>{props.language ? "Conectemos ":"Let's connect "}<FontAwesomeIcon icon={faCircleArrowRight}/></button>
+                    <HashLink to='#connect'>
+                     <button onClick={()=>console.log('connect')}>{props.language ? "Conectemos ":"Let's connect "}<FontAwesomeIcon icon={faCircleArrowRight}/></button>
+                    </HashLink>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                    <img src={synthSun} alt='header img'/> 

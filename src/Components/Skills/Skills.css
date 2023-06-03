@@ -30,6 +30,7 @@
     padding: 0 0 50px 0;
     position: relative;
     top: 20rem;
+    margin-bottom: 0px;
   }
   .skill-bx {
     background: #151515;
@@ -37,6 +38,11 @@
     text-align: center;
     padding: 60px 50px;
     margin-top: -60px;
+    height: 630px;
+  }
+  .skillnotShowing{
+    display: none !important;
+    justify-content: space-around;
   }
   .skill h2 {
       font-size: 45px;

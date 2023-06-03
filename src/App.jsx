@@ -8,6 +8,7 @@ import { faHatCowboy } from '@fortawesome/pro-thin-svg-icons'
 import { faHatChef } from '@fortawesome/sharp-solid-svg-icons'
 import { faPlateUtensils } from '@fortawesome/sharp-regular-svg-icons'
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 import NavBar from './Components/NavBar/NavBar'
 import HomeBanner from './Components/HomeBanner/HomeBanner'
 
