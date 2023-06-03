@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {useState, useEffect} from "react";
 import logo from '../../assets/images/logocompleted.png';
 import './NavBar.css';
-import navicon1 from '../../assets/images/navicon.svg';
+import navicon1 from '../../assets/images/navIcon.svg';
 import navicon2 from '../../assets/images/github-icon-white-6.jpg';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
