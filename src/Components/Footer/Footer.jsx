@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import navicon1 from '../../assets/images/navicon.svg';
+import navicon1 from '../../assets/images/navIcon.svg';
 import navicon2 from '../../assets/images/github-icon-white-6.jpg';
 import logo from '../../assets/images/logocompleted.png';
 import './Footer.css';
