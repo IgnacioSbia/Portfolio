@@ -53,7 +53,7 @@ function Contact(props) {
                 <Col md={6}>
                     <div className='contactForm'>
                         <h2>{props.language ? "Contacta" : 'Get In Touch'}</h2>
-                        <form onSubmit={handleSubmit} className='contactFormContent'>
+                       {/*<form onSubmit={handleSubmit} className='contactFormContent'>
                             <Row>
                                 <Col sm={6} className='px-1'>
                                     <input type='text'value={formDetails.firstName} placeholder='Name' onChange={(e)=> onFormUpdate('firstName', e.target.value)}/>
@@ -67,7 +67,10 @@ function Contact(props) {
                                 </Col>
                                 
                             </Row>
-                        </form>
+                        </form>*/} 
+                        <h2>{props.language ? 'Mi mail de contacto:':'My contact mail:' }</h2>
+                        <h4>ignaciosabiajes@gmail.com</h4>
+                      
                     </div>
                 </Col>
             </Row>
