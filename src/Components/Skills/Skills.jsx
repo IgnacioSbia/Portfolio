@@ -28,7 +28,7 @@ function Skills(props) {
                                                 <Card.Body>
                                                     <Card.Title>Front-End</Card.Title>
                                                     <Card.Text className='frontendski'>
-                                                        {props.language ? "Las diferentes herramientas que eh utilizado para desarollar el frontend en proyectos en los que eh trabajado:" :  "These are  some of the tools I use developing the frontend in the projects I've worked on:"}
+                                                        {props.language ? "Las diferentes herramientas que he utilizado para desarollar el frontend en proyectos en los que he trabajado:" :  "These are  some of the tools I use developing the frontend in the projects I've worked on:"}
                                                     </Card.Text>
                                                     <Card.Subtitle className="mb-2 backendSkills">HTML</Card.Subtitle>
                                                     <Card.Subtitle className="mb-2 backendSkills">CSS</Card.Subtitle>
@@ -41,7 +41,7 @@ function Skills(props) {
                                                 <Card.Body>
                                                     <Card.Title>Back-End</Card.Title>
                                                     <Card.Text className='frontendski'>
-                                                    {props.language ? "Las diferentes herramientas que eh utilizado para desarollar el backend en proyectos en los que eh trabajado:" :  "These are  some of the tools I use use developing the backend in the projects I've worked on:"}
+                                                    {props.language ? "Las diferentes herramientas que he utilizado para desarollar el backend en proyectos en los que he trabajado:" :  "These are  some of the tools I use use developing the backend in the projects I've worked on:"}
                                                     </Card.Text>
                                                     <Card.Subtitle className="mb-2 backendSkills">Node.Js</Card.Subtitle>
                                                     <Card.Subtitle className="mb-2 backendSkills">Express.js</Card.Subtitle>
