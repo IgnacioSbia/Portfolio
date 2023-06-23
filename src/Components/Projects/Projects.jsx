@@ -5,7 +5,6 @@ import './Projects.css';
 import pokeImg from '../../assets/images/PokemonProject.png';
 import audnImg from '../../assets/images/AudnProject.jpg';
 import w40kImg from '../../assets/images/Warhammerprojectprob.jpg';
-import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
 
@@ -42,7 +41,7 @@ function Projects(props) {
                     <Col size={12}>
                             <div className='projectsTitle'>
                                 <h2>{props.language ? 'Proyectos' : 'Projects'}</h2>
-                                <p>{props.language ? "Aqui algunos de los proyectos que eh realizado. Todos ellos con collaboracion de otros desarolladores utilizando Git.": "Here are some projects I've made. They are all in collaboration with others developers using Git."}</p>
+                                <p>{props.language ? "Aqui algunos de los proyectos que he realizado. Todos ellos con colaboración de otros desarolladores utilizando Git.": "Here are some projects I've made. They are all in collaboration with others developers using Git."}</p>
                             </div>
                             <Tab.Container id='projects-tab' defaultActiveKey="first">
 
