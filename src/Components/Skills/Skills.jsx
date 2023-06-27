@@ -20,7 +20,7 @@ function Skills(props) {
                             <h2>
                                 {props.language ? 'Habilidades' : 'Skills' }
                             </h2>
-                            <p>{props.language ? 'Aqui algunas de las habilidades con las que me siento mas comodo trabajando.':'These are a list of the skills I feel more comfortable with'}.</p>
+                            <p>{props.language ? 'Aqui algunas de las habilidades con las que me siento mas comodo trabajando':'These are a list of the skills I feel more comfortable with'}.</p>
                             <TrackVisibility> 
                                      {({isVisible})=>
                                         <div className={ isVisible ? 'skillsCardContent animate__animated animate__slideInLeft': "skillnotShowing"}>
