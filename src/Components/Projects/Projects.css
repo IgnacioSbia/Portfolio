@@ -27,6 +27,7 @@
     text-align: center;
   }
   .projectImg{
+    height: 325px;
     width: 100%;
   }
   .projectsTitle{
@@ -35,6 +36,9 @@
     color: #CD4BDF;
     padding: 0.5px;
     margin: 10px;
+  }
+  .projectCardsLinks:any-link{
+    color: white;
   }
   .project p {
     color: #B8B8B8;

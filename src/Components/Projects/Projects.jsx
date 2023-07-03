@@ -5,6 +5,7 @@ import './Projects.css';
 import pokeImg from '../../assets/images/PokemonProject.png';
 import audnImg from '../../assets/images/AudnProject.jpg';
 import w40kImg from '../../assets/images/Warhammerprojectprob.jpg';
+import eCommrc from '../../assets/images/ecommrce.jpeg';
 import 'animate.css';
 
 
@@ -30,8 +31,15 @@ function Projects(props) {
             title: "Warhammer40kWiki",
             descriptionEN: "A short Warhammer 40k Wiki I'm still developing with a friend",
             descriptionES: "Una pequeña wiki de Warhammer 40mil, la cual sigo desarollando con un amigo",
-            imgUrl: w40kImg
+            imgUrl: w40kImg,
+            siteUrl: "https://w40kwikiproject.netlify.app/"
         },
+        {
+            title: "E-commerce",
+            descriptionEN: "Small E-Commerce page that I'm developing on a daily basis.",
+            descriptionES: "Una pequeña pagina E-Commerce que estoy desarollando diariamente.",
+            imgUrl: eCommrc
+        }
     ]
 
   return (
