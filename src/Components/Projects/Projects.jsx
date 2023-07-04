@@ -19,26 +19,29 @@ function Projects(props) {
             title: "Pokedex",
             descriptionEN: "Pokemon's wiki",
             descriptionES: "Wiki de Pokemon",
-            imgUrl: pokeImg
+            imgUrl: pokeImg,
+            siteUrl: "https://github.com/IgnacioSbia/PokemonProyectos"
         },
         {
             title: "Audn",
             descriptionEN: "Music player",
             descriptionES: "Reproductor de Musica",
-            imgUrl: audnImg
+            imgUrl: audnImg,
+            siteUrl: "https://github.com/IgnacioSbia/DesafioFinal"
         },
         {
             title: "Warhammer40kWiki",
             descriptionEN: "A short Warhammer 40k Wiki I'm still developing with a friend",
             descriptionES: "Una pequeña wiki de Warhammer 40mil, la cual sigo desarollando con un amigo",
             imgUrl: w40kImg,
-            siteUrl: "https://w40kwikiproject.netlify.app/"
+            siteUrl: "https://github.com/IgnacioSbia/ProjectWarhammerPagetoPractice"
         },
         {
             title: "E-commerce",
             descriptionEN: "Small E-Commerce page that I'm developing on a daily basis.",
             descriptionES: "Una pequeña pagina E-Commerce que estoy desarollando diariamente.",
-            imgUrl: eCommrc
+            imgUrl: eCommrc,
+            siteUrl: "https://github.com/IgnacioSbia/eCommerce"
         }
     ]
 

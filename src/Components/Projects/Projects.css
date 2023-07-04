@@ -28,7 +28,8 @@
   }
   .projectImg{
     height: 325px;
-    width: 100%;
+    width: 90%;
+    border-radius: 15px;
   }
   .projectsTitle{
     background-color: black;
@@ -113,8 +114,9 @@
     background: linear-gradient(90.21deg, #000000 -5.91%, #c46acc 111.58%);
     opacity: 0.85;
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 0;
+    border-radius: 15px;
     transition: 0.4s ease-in-out;
   }
   .proj-imgbx:hover::before {
@@ -128,14 +130,16 @@
     transform: translate(-50%, -50%);
     transition: 0.5s ease-in-out;
     opacity: 0;
-    width: 100%;
+    width: 90%;
+    width: fit-content;
   }
   .proj-imgbx:hover .proj-txtx {
     top: 50%;
     opacity: 1;
+    width: fit-content;
   }
   .proj-txtx h4 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
